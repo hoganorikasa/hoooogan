@@ -2,7 +2,7 @@ name: Test Workflow
 on:
   workflow_dispatch:
   repository_dispatch:
-    types: webhook
+    types: testme
 jobs:
   build:
     runs-on: ubuntu-latest
